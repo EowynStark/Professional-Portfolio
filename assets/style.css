@@ -17,6 +17,20 @@ header {
 
 }
 
+header nav ul {
+    list-style-type: none;
+}
+
+a {
+    color:black;
+    text-emphasis: none;
+    text-decoration: solid;
+}
+
+a:hover {
+    color:var(--green);
+}
+
 main section {
     border-style:groove;
     border-color: var(--green);
@@ -25,5 +39,6 @@ main section {
 }
 
 footer span {
-    margin-left: 50%;
+    margin-top: 10px;
+    margin-left: 39%;
 }
