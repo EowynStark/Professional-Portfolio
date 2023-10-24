@@ -1,0 +1,23 @@
+:root {
+    --green: #556b2f;
+    --tan: #deb887;
+    --brown: #A0522d;
+}
+
+body {
+    background-color: antiquewhite;
+    color:black
+    font-family: Georgia, Garamond, serif;
+}
+
+header {
+    /* insert style here */
+}
+
+main {
+    /* insert style here */
+}
+
+footer {
+    /* insert style here */
+}
