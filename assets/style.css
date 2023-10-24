@@ -5,12 +5,10 @@
 }
 
 body {
-    background-color: antiquewhite;
-    color:black
-    font-family: Georgia, Garamond, serif;
+    /* insert style here */
 }
 
-header {
+header h1 {
     /* insert style here */
 }
 
