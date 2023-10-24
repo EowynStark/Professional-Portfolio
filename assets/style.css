@@ -5,17 +5,25 @@
 }
 
 body {
-    /* insert style here */
+    font-family: Georgia,Helvetica, serif;
+    background-color: var(--tan);
 }
 
-header h1 {
-    /* insert style here */
+header {
+    border-style: groove;
+    border-color:var(--brown);
+    border-width: 15px;
+    margin-bottom: 10px;
+
 }
 
-main {
-    /* insert style here */
+main section {
+    border-style:groove;
+    border-color: var(--green);
+    border-width:10px;
+    margin-top: 10px;
 }
 
-footer {
-    /* insert style here */
+footer span {
+    margin-left: 50%;
 }
