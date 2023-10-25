@@ -17,6 +17,12 @@ header {
 
 }
 
+header figure {
+    width: 10px;
+    height: 10px;
+    margin: 15px;
+}
+
 header nav ul {
     list-style-type: none;
 }
@@ -36,6 +42,16 @@ main section {
     border-color: var(--green);
     border-width:10px;
     margin-top: 10px;
+}
+
+p img {
+    display: none;
+}
+
+p:hover img {
+    display:block;
+    max-width: 150px;
+    max-height: 400px;
 }
 
 footer span {
