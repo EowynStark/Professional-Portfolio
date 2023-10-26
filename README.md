@@ -4,8 +4,9 @@ Portfolio of current and upcoming samples of professional work
 ## Description
 This portfolio is a work in progress intended to showcase skills learned and applied in a professional manner. As new skills are acquired and projects completed this portfolio will continue to grow in content and style. Check back to see how robust this portfolio becomes with time.
 
-## Authors
-Sourcecode by Andria Jean 
+## Authors and Credits
+Sourcecode by Andria Jean
+Mushroom art sourced by RawPixel.com (creative commons licensing) 
 
 ## Version History
 1.0     Created 10/24/2023 Completed 
