@@ -3,12 +3,12 @@
     --tan: #deb887;
     --brown: #A0522d;
 }
-
+/* provides base level style for continuity on page */
 body {
     font-family: Georgia,Helvetica, serif;
     background-color: var(--tan);
 }
-
+/* adds border to header bar */
 header {
     border-style: groove;
     border-color:var(--brown);
@@ -16,45 +16,45 @@ header {
     margin-bottom: 10px;
 
 }
-
-header figure {
-    width: 10px;
-    height: 10px;
-    margin: 15px;
-}
-
+/* removes list style from nav bar */
 header nav ul {
     list-style-type: none;
 }
-
+/* styles links to appear black and have no visible style */
 a {
     color:black;
     text-emphasis: none;
     text-decoration: solid;
 }
-
+/* styles all hyperlinks to turn green on hover */
 a:hover {
     color:var(--green);
 }
-
+/* adds border to sections under header bar */
 main section {
     border-style:groove;
     border-color: var(--green);
     border-width:10px;
     margin-top: 10px;
 }
-
+/* makes project image a certain size */
 p img {
-    display: none;
+    display: flex;
+    max-width: 300px;
+    max-height: 300px;
 }
-
-p:hover img {
-    display:block;
-    max-width: 150px;
-    max-height: 400px;
-}
-
+/* styles footer to center text */
 footer span {
-    margin-top: 10px;
-    margin-left: 39%;
+    color:var(--green);
+   display:flex;
+   justify-content: center;
+}
+/* sizes and styles figure of mushroom to left side */
+footer figure {
+    background-color: var(--brown);
+    border-radius: 10px;
+    display: flex;
+    justify-self: left;
+    height: 150px;
+    width: 150px;
 }
