@@ -6,7 +6,7 @@ This portfolio is a work in progress intended to showcase skills learned and app
 
 ## Authors and Credits
 Sourcecode by Andria Jean
-Mushroom art sourced by RawPixel.com (creative commons licensing) 
+All images sourced by RawPixel.com (creative commons licensing) 
 
 ## Version History
 1.0     Created 10/24/2023 Completed 

@@ -40,9 +40,12 @@ main section {
 /* makes project image a certain size */
 p img {
     display: flex;
+    border: transparent;
+    border-radius: 5px;
     max-width: 300px;
     max-height: 300px;
 }
+
 /* styles footer to center text */
 footer span {
     color:var(--green);
