@@ -6,6 +6,8 @@
 /* provides base level style for continuity on page */
 body {
     font-family: Georgia,Helvetica, serif;
+    text-align: left;
+    text-indent: 5%;
     background-color: var(--tan);
 }
 /* adds border to header bar */
@@ -13,12 +15,25 @@ header {
     border-style: groove;
     border-color:var(--brown);
     border-width: 15px;
+    border-radius: 10px;
     margin-bottom: 10px;
 
+}
+
+header img {
+    width: 400px;
+    border-radius: 10px;
+    border-color: var(--green);
+    border-style: solid;
+    margin: 10px;
 }
 /* removes list style from nav bar */
 header nav ul {
     list-style-type: none;
+    font-size: 20px;
+    font-style: oblique;
+    display: inline;
+    justify-self: right;
 }
 /* styles links to appear black and have no visible style */
 a {
@@ -29,23 +44,25 @@ a {
 /* styles all hyperlinks to turn green on hover */
 a:hover {
     color:var(--green);
+    font-style:oblique;
 }
 /* adds border to sections under header bar */
 main section {
-    border-style:groove;
+    border-style:double;
     border-color: var(--green);
     border-width:10px;
+    border-radius: 10px;
     margin-top: 10px;
 }
-/* makes project image a certain size */
+/* styles the images in My Project section */
 p img {
     display: flex;
     border: transparent;
     border-radius: 5px;
     max-width: 300px;
     max-height: 300px;
+    margin:10px;
 }
-
 /* styles footer to center text */
 footer span {
     color:var(--green);
