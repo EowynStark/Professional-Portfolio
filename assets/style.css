@@ -6,6 +6,7 @@
 /* provides base level style for continuity on page */
 body {
     font-family: Georgia,Helvetica, serif;
+    font-size:115%;
     text-align: left;
     text-indent: 5%;
     background-color: var(--tan);
@@ -19,7 +20,7 @@ header {
     margin-bottom: 10px;
 
 }
-
+/* adds and styles profile picture */
 header img {
     width: 400px;
     border-radius: 10px;
@@ -32,8 +33,7 @@ header nav ul {
     list-style-type: none;
     font-size: 20px;
     font-style: oblique;
-    display: inline;
-    justify-self: right;
+    background-color: var(--brown);
 }
 /* styles links to appear black and have no visible style */
 a {
@@ -41,10 +41,14 @@ a {
     text-emphasis: none;
     text-decoration: solid;
 }
-/* styles all hyperlinks to turn green on hover */
+/* styles all hyperlinks to change on hover */
 a:hover {
     color:var(--green);
     font-style:oblique;
+}
+/* styles internal nav keys to match nav bar */
+main span {
+    font-style:oblique
 }
 /* adds border to sections under header bar */
 main section {
@@ -54,27 +58,36 @@ main section {
     border-radius: 10px;
     margin-top: 10px;
 }
+/* removes list style from About Me section */
+main ul {
+    list-style-type:none;
+}
 /* styles the images in My Project section */
 p img {
-    display: flex;
-    border: transparent;
+    display: block;
+    border: dotted;
+    border-color: var(--brown);
     border-radius: 5px;
-    max-width: 300px;
-    max-height: 300px;
+    width: 300px;
+    height: 300px;
     margin:10px;
-}
+} 
 /* styles footer to center text */
 footer span {
     color:var(--green);
    display:flex;
    justify-content: center;
 }
-/* sizes and styles figure of mushroom to left side */
+/* adds style to footer on a hover action */
+footer span:hover{
+    font-weight: 800;
+}
+/* sizes and styles figure of mushroom */
 footer figure {
     background-color: var(--brown);
     border-radius: 10px;
     display: flex;
-    justify-self: left;
+    justify-self: center;
     height: 150px;
     width: 150px;
 }
