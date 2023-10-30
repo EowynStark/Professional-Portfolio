@@ -12,9 +12,12 @@ Profile Picture created on picrew.me/en by original artist found here:  https://
 All other images sourced by RawPixel.com (creative commons licensing) 
 
 ## Version History
-1.0     Created 10/24/2023 Completed 
+1.0     Created 10/24/2023 Completed 10/30/2023
 
 Future versions will be updated as more examples of professional work become available.
+
+## Mock Up
+<img src="./assets/images/_C__Bootcamp_Professional-Portfolio_Professional-Portfolio_index.html.png">
 
 ## License
 MIT License

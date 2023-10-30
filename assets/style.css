@@ -13,12 +13,21 @@ body {
 }
 /* adds border to header bar */
 header {
+    display: flex;
+    flex-wrap: wrap;
     border-style: groove;
     border-color:var(--brown);
     border-width: 15px;
     border-radius: 10px;
     margin-bottom: 10px;
 
+}
+/* formats name on page */
+header h1{
+    display:block;
+    text-wrap:nowrap;
+    font-size: 300%;
+    padding-right: 10px;
 }
 /* adds and styles profile picture */
 header img {
@@ -34,6 +43,13 @@ header nav ul {
     font-size: 20px;
     font-style: oblique;
     background-color: var(--brown);
+    border:dotted;
+    border-color:var(--green)
+}
+/* orients nav bar */
+header nav {
+    display: inline;
+    padding: auto;
 }
 /* styles links to appear black and have no visible style */
 a {
@@ -64,7 +80,8 @@ main ul {
 }
 /* styles the images in My Project section */
 p img {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     border: dotted;
     border-color: var(--brown);
     border-radius: 5px;
