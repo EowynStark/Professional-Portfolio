@@ -17,6 +17,7 @@ All other images sourced by RawPixel.com (creative commons licensing)
 Future versions will be updated as more examples of professional work become available.
 
 ## Mock Up
+<a href="https://eowynstark.github.io/Professional-Portfolio/">link to Professional Portfolio </a>
 <img src="./assets/images/_C__Bootcamp_Professional-Portfolio_Professional-Portfolio_index.html.png">
 
 ## License
